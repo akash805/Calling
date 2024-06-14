@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="550dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/text_details"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Was call Connected?"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_blue"
+                android:backgroundTint="#C83E13"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:text="Not Connected"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/text"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:text="Connected"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Specify the reason?"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:textSize="12sp"
+            android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:background="#DAD9D9" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:checked="true"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#1A99C4"
+                    android:layout_marginStart="16dp"
+                    android:textSize="12sp"
+                    android:textColor="#A6A5A5"
+                    android:text="Please Specify the reason? "
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_blue"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="25dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
